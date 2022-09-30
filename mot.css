@@ -1,0 +1,78 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	overflow-x: none;
+	scroll-behavior: smooth;
+	background-color: white;
+}
+section
+{
+	margin: 60px auto;
+	width: 80%;
+	position: relative;
+	animation-name: mymove;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+
+}
+@keyframes mymove
+{
+	from
+	{
+		top: 300px;
+	}
+	to 
+	{
+		top: 0px;
+	}
+}
+.title
+{
+	font-size: 4vmin;
+	color: rgb(73, 73, 126);
+	text-align: center;
+}
+.line
+{
+	height: 4px;
+	width: 150px;
+	background: coral;
+	margin: 10px auto;
+	border-radius: 5px;
+
+}
+
+.row 
+{
+	display: flex;
+	position: relative;
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+	height: 300px;
+	width: 300px;
+	justify-content: center;
+
+}
+
+
+.two
+{
+	float: right;
+}
+video
+{
+	box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.backward a
+{
+	font-size: 30px;
+	color: black;
+	padding: 10px;
+	
+}
